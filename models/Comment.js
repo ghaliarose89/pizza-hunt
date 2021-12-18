@@ -59,6 +59,7 @@ const Commentschema = new Schema({
     {
         toJSON:{
             getters:true,
+            virtuals:true,
         }
 
     }
